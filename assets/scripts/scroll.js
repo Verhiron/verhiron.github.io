@@ -9,17 +9,15 @@ $(document).ready(function() {
 
           // Store hash
           var hash = this.hash;
-
-          // Using jQuery's animate() method to add smooth page scroll
-          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          // animates the scroll down to body
           $('html, body').animate({
               scrollTop: $(hash).offset().top - $(".container").height()
-          }, 800, function() {
+          }, 800);
+      } else {
+          console.log("error");
+      }
+        
 
-              // Add hash (#) to URL when done scrolling (default click behavior)
-              window.location.hash = hash;
-          });
-      } // End if
   });
 
   var btn = $('#scrollTop');
