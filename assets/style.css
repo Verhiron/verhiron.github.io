@@ -193,6 +193,16 @@ article p {
     color: #F05340;
 }
 
+.fa-bootstrap {
+    color: black;
+    margin-right: 1%;
+    display: inline-block;
+}
+
+.fa-bootstrap:hover {
+    color: #401F7C;
+}
+
 #scrollTop {
     display: inline-block;
     background: transparent;
