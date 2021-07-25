@@ -64,11 +64,11 @@ header h1 {
     padding: 1.5%;
 }
 
-.fa-github{
+.fa-github, .fa-envelope{
     color: #670f77;
 }
 
-.fa-github:hover {
+.fa-github:hover, .fa-envelope:hover {
     opacity: .8;
     color: black;
     transform: translateY(1px);
