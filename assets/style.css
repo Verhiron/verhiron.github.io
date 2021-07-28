@@ -78,14 +78,18 @@ header h1 {
     color: inherit;
 }
 
-.article1 {
+.article {
+    background-color: #EDEDED;
+}
+/*
+.article2{
     background-color: #EDEDED;
 }
 
-.article2{
-    background-color: white;
+.article3{
+    background-color: #EDEDED;
 }
-
+*/
 article {
     display: block;
     float: left;
